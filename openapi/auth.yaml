@@ -3,6 +3,15 @@ info:
   title: DocuBridge Authentication API
   version: 1.0.0
 paths:
+  /api/test:
+    post:
+      summary: Test endpoint
+      tags:
+        - Test
+      responses:
+        "200":
+          description: Test endpoint response
+
   /auth/login:
     post:
       summary: Login user
