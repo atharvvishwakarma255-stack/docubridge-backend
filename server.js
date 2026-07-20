@@ -14,6 +14,10 @@ app.post('/api/test', (req, res) => {
     res.send('Test endpoint');
 });
 
+app.post('/api/test2', (req, res) => {
+    res.send('Test endpoint 2');
+});
+
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
