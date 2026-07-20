@@ -1,0 +1,49 @@
+openapi: 3.0.3
+info:
+  title: DocuBridge API
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000
+paths:
+  /:
+    get:
+      summary: GET /
+      description: Automatically discovered from the Express route source. Add contract metadata to enrich this operation.
+      operationId: getRoot
+      tags:
+        - General
+      x-feature-owner: Unassigned
+      x-rate-limit: None
+      x-legatio-generated: true
+      x-legatio-source: server.js
+      responses:
+        "200":
+          description: Successful response
+  /api/test:
+    post:
+      summary: POST /api/test
+      description: Automatically discovered from the Express route source. Add contract metadata to enrich this operation.
+      operationId: postApiTest
+      tags:
+        - Api
+      x-feature-owner: Unassigned
+      x-rate-limit: None
+      x-legatio-generated: true
+      x-legatio-source: server.js
+      responses:
+        "200":
+          description: Successful response
+  /api/test2:
+    post:
+      summary: POST /api/test2
+      description: Automatically discovered from the Express route source. Add contract metadata to enrich this operation.
+      operationId: postApiTest2
+      tags:
+        - Api
+      x-feature-owner: Unassigned
+      x-rate-limit: None
+      x-legatio-generated: true
+      x-legatio-source: server.js
+      responses:
+        "200":
+          description: Successful response
