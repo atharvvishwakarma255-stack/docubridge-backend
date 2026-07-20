@@ -1,0 +1,20 @@
+{
+  "name": "docubridge-backend",
+  "version": "1.0.0",
+  "description": "Backend API for DocuBridge document, authentication, and workflow services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharvvishwakarma255-stack/docubridge-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atharvvishwakarma255-stack/docubridge-backend/issues"
+  },
+  "homepage": "https://github.com/atharvvishwakarma255-stack/docubridge-backend#readme"
+}
