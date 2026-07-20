@@ -2,15 +2,23 @@ openapi: 3.0.3
 info:
   title: DocuBridge Authentication API
   version: 1.0.0
+servers:
+  - url: http://localhost:3000
 paths:
   /api/test:
     post:
       summary: Test endpoint
+      operationId: testEndpoint
       tags:
         - Test
       responses:
         "200":
           description: Test endpoint response
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: Test endpoint
 
   /auth/login:
     post:
